@@ -1,0 +1,23 @@
+[project]
+name = "ece491e-randomized-smoothing"
+version = "0.2.0"
+description = "Reproduction of Cohen, Rosenfeld & Kolter (ICML 2019) on CIFAR-10"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "torch>=2.2",
+    "torchvision>=0.17",
+    "matplotlib>=3.8",
+    "pandas>=2.0",
+]
+
+[project.optional-dependencies]
+notebook = ["jupyter>=1.0", "ipywidgets>=8.0"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
