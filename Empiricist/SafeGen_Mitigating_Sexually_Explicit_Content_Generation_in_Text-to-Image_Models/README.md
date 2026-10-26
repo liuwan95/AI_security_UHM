@@ -81,7 +81,7 @@ SafeGen introduces a **text-agnostic parameter editing framework**:
 
 ## 3. Core Implementation Suite
 
-The project consists of three progressive Python modules:
+The project consists of two Python modules:
 
 ### Script 1: Out of the Box Pretrained Safegen Model (`generate.py`)
 
